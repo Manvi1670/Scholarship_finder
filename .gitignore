@@ -1,0 +1,17 @@
+Set-Content -Path .gitignore -Value @"
+# Virtual Environments
+venv/
+.venv/
+**/venv/
+**/env/
+
+# Python cache & build files
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+"@
