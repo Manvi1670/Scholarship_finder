@@ -1,4 +1,4 @@
-import logo from '../../assets/Images/logo.png'
+import logo from '../../assets/Images/logo.PNG'
 import './RegisterPage.css'
 import { useNavigate } from 'react-router-dom';
 
