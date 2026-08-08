@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/Images/logo.png'; // Adjust the path as necessary
+import logo from '../../assets/Images/logo.PNG'; // Adjust the path as necessary
 import { Link, useNavigate } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import './Navbar.css';
