@@ -3383,3 +3383,8 @@
 2026-08-07 20:11:37,310 [INFO] Stage 2 complete: 910 scholarships scraped successfully
 2026-08-07 20:11:37,351 [INFO] Saved 910 records to scholarships.json
 2026-08-07 20:11:37,351 [INFO] === Done ===
+2026-08-09 11:54:27,071 [INFO] === Starting scrape ===
+2026-08-09 11:54:27,072 [INFO] Stage 1: collecting listing links via Selenium...
+2026-08-09 11:54:30,870 [INFO] [live] loading page 1: https://www.buddy4study.com/scholarships?page=1
+2026-08-09 11:54:35,643 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/96f762b565935613a019f50c65d428c3
+2026-08-09 11:54:39,709 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55898): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/96f762b565935613a019f50c65d428c3
