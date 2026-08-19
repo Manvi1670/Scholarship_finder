@@ -11,7 +11,8 @@ const { matchScholarships } = require('./utils/matching')
 const app = express()
 app.use(express.json())
 app.use(cors({
-  origin: 'https://scholarship-finder-silk.vercel.app/'
+  origin: 'https://scholarship-finder-silk.vercel.app',
+  credentials : true
 }))
 
 async function main() {
