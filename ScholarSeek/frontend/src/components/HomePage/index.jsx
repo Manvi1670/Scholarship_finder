@@ -31,7 +31,7 @@ const HomePage = () => {
       try {
         // /scholarships/match returns results already ranked by relevance
         // to this student's profile (course/cpi/region), not just a raw list.
-        const response = await fetch('http://localhost:3000/scholarships/match', {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/scholarships/match`, {
           headers: { Authorization: `Bearer ${jwtoken}` }
         });
         if (!response.ok) {

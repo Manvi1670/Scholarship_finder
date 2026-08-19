@@ -35,7 +35,7 @@ export default function ProfilePage() {
     };
 
     const handleSave = async() => {
-        const response = await fetch("http://localhost:3000/user/profile/update", {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/user/profile/update`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -62,7 +62,7 @@ export default function ProfilePage() {
     useEffect(() => {
         const fetchProfile = async () => {
             try {
-                const response = await fetch("http://localhost:3000/user/profile", {
+                const response = await fetch(`${import.meta.env.VITE_API_URL}/user/profile`, {
                     headers: {
                         Authorization: `Bearer ${localStorage.getItem("jwtoken")}`,
                     },

@@ -13,7 +13,7 @@ const ScholarshipDetailPage = () => {
   useEffect(() => {
     const fetchScholarshipDetails = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/scholarship/${id}`);
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/scholarship/${id}`);
         const rawData = await response.json();
 
         if (!response.ok) {
