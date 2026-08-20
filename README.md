@@ -97,7 +97,7 @@ Create a `.env` with the same `MONGO_URI` and `DB_NAME`. A full run scrapes both
 
 ## 📷 Screenshots
 
-- [Home page](ScholarSeek/Screenshots/Screenshot_25-6-2025_112120_localhost.jpeg)
+- [Home page](https://github.com/Manvi1670/Scholarship_finder/blob/main/filters-and-matching.png)
 - [Register page](ScholarSeek/Screenshots/Screenshot_25-6-2025_112213_localhost.jpeg)
 - [Scholarship listing](ScholarSeek/Screenshots/Screenshot_25-6-2025_112410_localhost.jpeg)
 - [Scholarship detail](ScholarSeek/Screenshots/Screenshot_25-6-2025_112433_localhost.jpeg)
