@@ -97,11 +97,13 @@ Create a `.env` with the same `MONGO_URI` and `DB_NAME`. A full run scrapes both
 
 ## 📷 Screenshots
 
-- [Home page](https://github.com/Manvi1670/Scholarship_finder/blob/main/filters-and-matching.png)
-- [Register page](ScholarSeek/Screenshots/Screenshot_25-6-2025_112213_localhost.jpeg)
-- [Scholarship listing](ScholarSeek/Screenshots/Screenshot_25-6-2025_112410_localhost.jpeg)
-- [Scholarship detail](ScholarSeek/Screenshots/Screenshot_25-6-2025_112433_localhost.jpeg)
-- [Profile page](ScholarSeek/Screenshots/Screenshot_25-6-2025_11327_localhost.jpeg)
+- [Home page](https://github.com/Manvi1670/Scholarship_finder/blob/main/home.png)
+- [Register page](https://github.com/Manvi1670/Scholarship_finder/blob/main/register.png)
+- [Login page](https://github.com/Manvi1670/Scholarship_finder/blob/main/login.png)
+- [Scholarship listing](https://github.com/Manvi1670/Scholarship_finder/blob/main/filters-and-matching.png)
+- [Scholarship detail-1](https://github.com/Manvi1670/Scholarship_finder/blob/main/scholarship-detail-1.png)
+- [Scholarship detail-2](https://github.com/Manvi1670/Scholarship_finder/blob/main/scholarship-detail-2.png)
+- [Profile page](https://github.com/Manvi1670/Scholarship_finder/blob/main/profile.png)
 
 ## 👩‍💻 Author
 
